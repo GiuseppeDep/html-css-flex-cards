@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+}
+
+body{
+    font-family: "Fredoka", serif;
+    
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.title{
+    color: red;
+    text-align: center;
+    font-size: 30px;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.col{
+    width: calc(100% / 3);
+    display:flex;
+    justify-content: center;
+    padding: 20px;
+    
+
+    
+}
+
+.user-box{
+    display: flex;
+    
+    
+    
+}
+
+.user-name{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+h3{
+    margin-left: 15px;
+    font-size: 15px;
+}
+
+a{
+    margin-left: 15px;
+}
+
+h2{
+    margin-left: 15px;
+}
+
